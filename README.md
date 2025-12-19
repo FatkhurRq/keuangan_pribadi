@@ -73,12 +73,12 @@ cp .env.example .env
 
 Kemudian edit file `.env` dan sesuaikan konfigurasi database:
 ```
-DB_CONNECTION=mysql
+DB_CONNECTION=mysql (jika memakai mysql)
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=keuangan_pribadi
 DB_USERNAME=root
-DB_PASSWORD=
+DB_PASSWORD= (masukkan password jika ada)
 ```
 
 #### 4. Generate Application Key
